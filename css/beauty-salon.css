@@ -44,10 +44,11 @@ section {
     letter-spacing: 0.5px;
 }
 header .navbar-brand img {
-    max-height: 42px;
+    max-height: 120px;
+    max-width: 120px;
 }
 header .navbar-brand {
-    padding: 25px 0;
+    padding: 5px 0 0 0;
 }
 /* text gradient color */
 .text-gradient-san-blue-new-york-red {

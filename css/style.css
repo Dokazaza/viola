@@ -7033,7 +7033,10 @@ header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   width: 0;
 }
 header .navbar-brand img {
-  max-height: 46px;
+  height: auto; /* Allows it to scale naturally */
+  max-height: 60px; /* Adjust to your desired size */
+  width: auto; /* Maintains the aspect ratio */
+  max-width: 200px; /* Increase if needed */
 }
 header .header-top-bar {
   position: fixed;
